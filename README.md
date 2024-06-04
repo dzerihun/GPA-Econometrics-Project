@@ -6,6 +6,10 @@
 **Instructor:** Dr. Ngwunui Azenui  
 **Date:** May 5, 2023
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## Project Overview
 
 This project aims to predict college GPA (COLLGPA) using various independent variables that reflect a student's background, habits, and activities. The project leverages econometric methods to identify the most significant predictors of college GPA.
@@ -38,15 +42,21 @@ This project aims to predict college GPA (COLLGPA) using various independent var
 
 ### Model 1
 Initial regression model with the following equation:
-\[ \text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \text{SAT} \times \text{HSGPA} + \ldots + \epsilon \]
+$$
+\text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \text{SAT} \times \text{HSGPA} + \ldots + \epsilon
+$$
 
 ### Model 2
 Adjusted model after addressing multicollinearity and transforming some variables:
-\[ \text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \ln(\text{HRSTD}) + \ldots + \epsilon \]
+$$
+\text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \ln(\text{HRSTD}) + \ldots + \epsilon
+$$
 
 ### Model 3
 Final model with additional modifications to improve fit and significance:
-\[ \text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \ln(\text{HRSTD}) + \beta_4 \ln(\text{HREXTRA}) + \ldots + \epsilon \]
+$$
+\text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \ln(\text{HRSTD}) + \beta_4 \ln(\text{HREXTRA}) + \ldots + \epsilon
+$$
 
 ## Key Findings
 
@@ -84,7 +94,7 @@ Model 3 is identified as the best model for predicting college GPA, with most va
 
 ## Acknowledgements
 
-We would like to thank Dr. Ngwunui Azenui for his guidance and support throughout this project.
+We would like to thank Dr. Ngwunui Azenui for her guidance and support throughout this project.
 
 ## License
 

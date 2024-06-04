@@ -38,21 +38,15 @@ This project aims to predict college GPA (COLLGPA) using various independent var
 
 ### Model 1
 Initial regression model with the following equation:
-$$
-\text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \text{SAT} \times \text{HSGPA} + \ldots + \epsilon
-$$
+![Model 1 Equation](https://latex.codecogs.com/png.latex?%5Ctext%7BCOLLGPA%7D%20%3D%20%5Cbeta_0%20%2B%20%5Cbeta_1%20%5Ctext%7BSAT%7D%20%2B%20%5Cbeta_2%20%5Ctext%7BHSGPA%7D%20%2B%20%5Cbeta_3%20%5Ctext%7BSAT%7D%20%5Ctimes%20%5Ctext%7BHSGPA%7D%20%2B%20%5Cldots%20%2B%20%5Cepsilon)
 
 ### Model 2
 Adjusted model after addressing multicollinearity and transforming some variables:
-$$
-\text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \ln(\text{HRSTD}) + \ldots + \epsilon
-$$
+![Model 2 Equation](https://latex.codecogs.com/png.latex?%5Ctext%7BCOLLGPA%7D%20%3D%20%5Cbeta_0%20%2B%20%5Cbeta_1%20%5Ctext%7BSAT%7D%20%2B%20%5Cbeta_2%20%5Ctext%7BHSGPA%7D%20%2B%20%5Cbeta_3%20%5Cln%28%5Ctext%7BHRSTD%7D%29%20%2B%20%5Cldots%20%2B%20%5Cepsilon)
 
 ### Model 3
 Final model with additional modifications to improve fit and significance:
-$$
-\text{COLLGPA} = \beta_0 + \beta_1 \text{SAT} + \beta_2 \text{HSGPA} + \beta_3 \ln(\text{HRSTD}) + \beta_4 \ln(\text{HREXTRA}) + \ldots + \epsilon
-$$
+![Model 3 Equation](https://latex.codecogs.com/png.latex?%5Ctext%7BCOLLGPA%7D%20%3D%20%5Cbeta_0%20%2B%20%5Cbeta_1%20%5Ctext%7BSAT%7D%20%2B%20%5Cbeta_2%20%5Ctext%7BHSGPA%7D%20%2B%20%5Cbeta_3%20%5Cln%28%5Ctext%7BHRSTD%7D%29%20%2B%20%5Cbeta_4%20%5Cln%28%5Ctext%7BHREXTRA%7D%29%20%2B%20%5Cldots%20%2B%20%5Cepsilon)
 
 ## Key Findings
 
@@ -90,13 +84,8 @@ Model 3 is identified as the best model for predicting college GPA, with most va
 
 ## Acknowledgements
 
-We would like to thank Dr. Ngwunui Azenui for her guidance and support throughout this project.
+We would like to thank Dr. Ngwunui Azenui for his guidance and support throughout this project.
 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-<!-- Embed MathJax -->
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>

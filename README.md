@@ -6,10 +6,6 @@
 **Instructor:** Dr. Ngwunui Azenui  
 **Date:** May 5, 2023
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 ## Project Overview
 
 This project aims to predict college GPA (COLLGPA) using various independent variables that reflect a student's background, habits, and activities. The project leverages econometric methods to identify the most significant predictors of college GPA.
@@ -100,3 +96,7 @@ We would like to thank Dr. Ngwunui Azenui for her guidance and support throughou
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+<!-- Embed MathJax -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>

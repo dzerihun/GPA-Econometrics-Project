@@ -84,7 +84,7 @@ Model 3 is identified as the best model for predicting college GPA, with most va
 
 ## Acknowledgements
 
-We would like to thank Dr. Ngwunui Azenui for his guidance and support throughout this project.
+We would like to thank Dr. Ngwunui Azenui for her guidance and support throughout this project.
 
 ## License
 
